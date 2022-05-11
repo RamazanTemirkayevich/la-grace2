@@ -3534,10 +3534,14 @@
 /* line 34, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-bg {
   margin-top: 30px;
+}
+
+/* line 36, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+.hotel-bg > img {
   width: 100%;
 }
 
-/* line 39, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 41, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-btn {
   display: block;
   margin: -4px auto auto;
@@ -3553,7 +3557,7 @@
   color: #FFFFFF;
 }
 
-/* line 54, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 56, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-block {
   margin-top: 44px;
   width: 100%;
@@ -3561,21 +3565,21 @@
   justify-content: space-between;
 }
 
-/* line 60, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 62, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-block__img {
   position: relative;
   width: 540px;
   height: 455px;
 }
 
-/* line 65, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 67, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-block__img > div {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/* line 71, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 73, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-block__img-item {
   position: absolute;
   inset: 0;
@@ -3583,7 +3587,7 @@
   transition: 0.9s;
 }
 
-/* line 77, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 79, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-block__img-item > img {
   display: block;
   width: 100%;
@@ -3592,14 +3596,14 @@
   object-position: center;
 }
 
-/* line 86, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 88, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-block__img-item[data-active] {
   opacity: 1;
   z-index: 1;
   transition-delay: 0ms;
 }
 
-/* line 92, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 94, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-block__img-btn {
   position: absolute;
   z-index: 2;
@@ -3610,17 +3614,17 @@
   cursor: pointer;
 }
 
-/* line 101, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 103, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-block__img-btn.prev {
   left: 0;
 }
 
-/* line 104, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 106, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-block__img-btn.next {
   right: 0;
 }
 
-/* line 110, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 112, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-block__text {
   text-align: center;
   margin-top: 100px;
@@ -3634,14 +3638,14 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 124, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 126, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-gift {
   margin: 140px auto auto;
   width: 100%;
   border-top: 2px solid #5A8CC1;
 }
 
-/* line 129, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 131, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-gift__text {
   font-family: "Alice";
   font-weight: 200;
@@ -3652,7 +3656,7 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
-/* line 138, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 140, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-gift__text > b {
   font-family: "Alice";
   font-weight: 400;
@@ -3663,7 +3667,7 @@
   color: #000000;
 }
 
-/* line 149, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+/* line 151, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
 .hotel-gift__vectors {
   margin: 20.43px auto auto;
   display: flex;
@@ -3673,19 +3677,19 @@
 }
 
 @media (min-width: 1440px) {
-  /* line 163, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 165, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-block__img-item {
     width: 540px;
   }
 }
 
 @media (max-width: 1024px) {
-  /* line 172, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 174, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel {
     margin: 130px auto auto;
     width: 100%;
   }
-  /* line 176, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 178, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-title {
     font-family: "Alice";
     font-size: 48px;
@@ -3694,7 +3698,7 @@
     letter-spacing: 0.07em;
     color: rgba(0, 0, 0, 0.8);
   }
-  /* line 185, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 187, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-lines {
     display: flex;
     flex-direction: column;
@@ -3702,24 +3706,23 @@
     margin: 5px auto;
     width: 412px;
   }
-  /* line 192, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 194, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-lines > hr:first-child {
     width: 100%;
     height: 0;
     border: 1px solid #5A8CC1;
   }
-  /* line 198, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 200, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-lines > hr {
     margin-top: 10px;
     width: 220px;
     border: 1px solid #5A8CC1;
   }
-  /* line 205, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 207, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-bg {
     margin-top: 30px;
-    width: 100%;
   }
-  /* line 210, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 211, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-btn {
     display: block;
     margin: -4px auto auto;
@@ -3734,7 +3737,7 @@
     letter-spacing: 0.07em;
     color: #FFFFFF;
   }
-  /* line 225, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 226, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-block {
     margin-top: 44px;
     width: 100%;
@@ -3742,19 +3745,19 @@
     justify-content: space-between;
     flex-direction: row;
   }
-  /* line 232, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 233, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-block__img {
     position: relative;
     width: 540px;
     height: 455px;
   }
-  /* line 237, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 238, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-block__img > div {
     margin: 0;
     padding: 0;
     list-style: none;
   }
-  /* line 243, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 244, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-block__img-item {
     position: absolute;
     inset: 0;
@@ -3762,7 +3765,7 @@
     transition: 0.9s;
     width: 55vh;
   }
-  /* line 250, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 251, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-block__img-item > img {
     display: block;
     width: 100%;
@@ -3770,13 +3773,13 @@
     object-fit: cover;
     object-position: center;
   }
-  /* line 259, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 260, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-block__img-item[data-active] {
     opacity: 1;
     z-index: 1;
     transition-delay: 0ms;
   }
-  /* line 265, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 266, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-block__img-btn {
     position: absolute;
     z-index: 2;
@@ -3786,15 +3789,15 @@
     transform: translateY(-50%);
     cursor: pointer;
   }
-  /* line 274, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 275, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-block__img-btn.prev {
     left: 0;
   }
-  /* line 277, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 278, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-block__img-btn.next {
     right: 0;
   }
-  /* line 283, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 284, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-block__text {
     text-align: center;
     margin-top: 100px;
@@ -3807,13 +3810,13 @@
     text-indent: 20px;
     color: rgba(0, 0, 0, 0.8);
   }
-  /* line 297, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 298, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-gift {
     margin: 140px auto auto;
     width: 100%;
     border-top: 2px solid #5A8CC1;
   }
-  /* line 302, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 303, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-gift__text {
     font-family: "Alice";
     font-weight: 200;
@@ -3823,7 +3826,7 @@
     letter-spacing: 0.07em;
     color: rgba(0, 0, 0, 0.7);
   }
-  /* line 311, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 312, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-gift__text > b {
     font-family: "Alice";
     font-weight: 400;
@@ -3833,7 +3836,7 @@
     letter-spacing: 0.07em;
     color: #000000;
   }
-  /* line 322, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 323, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-gift__vectors {
     margin: 20.43px auto auto;
     display: flex;
@@ -3844,10 +3847,9 @@
 }
 
 @media (max-width: 768px) {
-  /* line 334, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
+  /* line 335, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel {
     margin: 45vh auto auto;
-    width: 700px;
   }
   /* line 340, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_hotel.scss */
   .hotel-block__img-item {
@@ -3901,9 +3903,10 @@
 /* line 1, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
 .wedding {
   margin: 140px auto auto;
+  width: 100%;
 }
 
-/* line 4, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
+/* line 5, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
 .wedding-title {
   font-family: "Alice";
   font-weight: 400;
@@ -3914,20 +3917,25 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 14, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
+/* line 15, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
 .wedding-img {
   margin: 40px auto auto;
-  width: 730px;
+  width: 100%;
 }
 
 /* line 19, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
+.wedding-img > img {
+  width: 100%;
+}
+
+/* line 24, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
 .wedding-line {
-  width: 658px;
+  width: 100%;
   margin: 20px auto auto;
   color: #5A8CC1;
 }
 
-/* line 25, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
+/* line 30, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
 .wedding-text {
   display: block;
   font-family: "Alice";
@@ -3940,30 +3948,30 @@
 }
 
 @media (min-width: 1440px) {
-  /* line 39, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
+  /* line 44, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
   .wedding-img {
     width: 730px;
   }
-  /* line 43, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
+  /* line 48, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
   .wedding-line {
     width: 658px;
   }
 }
 
 @media (max-width: 375px) {
-  /* line 50, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
+  /* line 55, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
   .wedding {
     width: 100%;
   }
-  /* line 53, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
+  /* line 58, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
   .wedding-img {
     width: 100%;
   }
-  /* line 55, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
+  /* line 60, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
   .wedding-img > img {
     width: 100%;
   }
-  /* line 60, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
+  /* line 65, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_wedding.scss */
   .wedding-line {
     width: 100%;
   }
@@ -3992,18 +4000,19 @@
   position: relative;
   display: flex;
   width: 1260px;
+  height: 100%;
   margin-top: 40px;
   margin-right: 0;
   background: rgba(191, 219, 247, 0.2);
 }
 
-/* line 24, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+/* line 25, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
 .team-block__img {
   width: 100%;
   height: 538px;
 }
 
-/* line 29, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+/* line 30, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
 .team-block__items {
   position: absolute;
   display: flex;
@@ -4014,7 +4023,7 @@
   transition: 0.7s;
 }
 
-/* line 38, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+/* line 39, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
 .team-block__items > img {
   display: block;
   width: 538px;
@@ -4022,7 +4031,7 @@
   object-position: center;
 }
 
-/* line 45, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+/* line 46, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
 .team-block__items-text {
   display: flex;
   flex-direction: column;
@@ -4032,7 +4041,7 @@
   margin: auto;
 }
 
-/* line 53, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+/* line 54, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
 .team-block__items-text > p {
   font-family: "Alice";
   font-weight: 400;
@@ -4043,13 +4052,13 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 65, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+/* line 66, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
 .team-block__items[data-active] {
   opacity: 1;
   z-index: 1;
 }
 
-/* line 70, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+/* line 71, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
 .team-block__btn {
   position: absolute;
   z-index: 2;
@@ -4060,81 +4069,81 @@
   cursor: pointer;
 }
 
-/* line 79, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+/* line 80, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
 .team-block__btn.prev {
   left: 0;
 }
 
-/* line 82, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+/* line 83, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
 .team-block__btn.next {
   right: 6em;
 }
 
 @media (min-width: 1440px) {
-  /* line 90, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+  /* line 91, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team {
     margin: 140px auto auto auto;
   }
-  /* line 93, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+  /* line 94, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team-block {
     width: 1258px;
   }
-  /* line 97, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+  /* line 98, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team-block__btn.next {
     right: 6em;
   }
-  /* line 103, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+  /* line 104, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team-block__items-text {
     height: 157px;
   }
-  /* line 106, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+  /* line 107, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team-block__items-text > p {
     font-size: 38px;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 118, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+  /* line 119, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team-block__items {
     flex-direction: row;
   }
-  /* line 121, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+  /* line 122, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team-block__items > img {
     width: 530px;
   }
-  /* line 125, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+  /* line 126, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team-block__items-text {
     height: unset;
   }
-  /* line 127, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+  /* line 128, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team-block__items-text > p {
-    font-size: 14px;
+    font-size: 22px;
   }
 }
 
-@media (max-width: 375px) {
-  /* line 137, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+@media (min-width: 375px) {
+  /* line 138, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team {
     margin: unset;
     width: 100%;
   }
-  /* line 141, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+  /* line 142, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team-title {
     width: 100%;
   }
-  /* line 145, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+  /* line 146, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team-block {
     width: 100%;
   }
-  /* line 149, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+  /* line 150, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team-block__btn.next {
     right: 0;
   }
-  /* line 154, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+  /* line 155, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team-block__items {
     flex-direction: column;
   }
-  /* line 157, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
+  /* line 158, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_team.scss */
   .team-block__items > img {
     width: 100%;
   }
@@ -4271,7 +4280,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   /* line 118, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
   .footer {
     height: unset;

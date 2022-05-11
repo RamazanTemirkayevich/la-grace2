@@ -33,7 +33,9 @@
 
     &-bg {
         margin-top: 30px;
-        width: 100%;
+        &>img {
+            width: 100%;
+        }
     }
 
     &-btn {
@@ -204,7 +206,6 @@
     
         &-bg {
             margin-top: 30px;
-            width: 100%;
         }
     
         &-btn {
@@ -333,7 +334,6 @@
 @media (max-width: 768px) {
     .hotel {
         margin: 45vh auto auto;
-        width: 700px;
 
         &-block {
             &__img {

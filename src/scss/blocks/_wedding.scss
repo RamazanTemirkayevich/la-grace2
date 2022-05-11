@@ -1,5 +1,6 @@
 .wedding {
     margin: 140px auto auto;
+    width: 100%;
 
     &-title {
         font-family: $ff;
@@ -13,11 +14,15 @@
 
     &-img {
         margin: 40px auto auto;
-        width: 730px;
+        width: 100%;
+
+        &>img {
+            width: 100%;
+        }
     }
 
     &-line {
-        width: 658px;
+        width: 100%;
         margin: 20px auto auto;
         color: $main-color;
     }

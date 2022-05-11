@@ -17,6 +17,7 @@
         position: relative;
         display: flex;
         width: 1260px;
+        height: 100%;
         margin-top: 40px;
         margin-right: 0;
         background: rgba(191, 219, 247, 0.2);
@@ -125,7 +126,7 @@
                 &-text {
                     height: unset;
                     &>p {
-                        font-size: 14px;
+                        font-size: 22px;
                     }
                 }
             }
@@ -133,7 +134,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     .team {
         margin: unset;
         width: 100%;
